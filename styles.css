@@ -71,6 +71,10 @@ li{
 }
 
 /* content */
+.quote{
+    width: 100%;    
+}
+
 .album{
     background: url(images/EXPERIENCE.png);
 }
