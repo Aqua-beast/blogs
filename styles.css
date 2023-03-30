@@ -1,0 +1,130 @@
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0;
+}
+
+/* header */
+.main-nav{
+    background-color: #160A21;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    height: 62px;
+}
+
+.logo{
+    width: 256px;
+    height: 44px;
+    grid-column: 2;
+}
+
+li{
+    list-style: none;
+}
+
+.authentication ul{
+  display: flex;
+  list-style: none;
+  padding-right: 20px;
+}
+
+.authentication ul li a{
+  text-decoration: none;
+  cursor: pointer;
+  color:  white;
+  padding: 0 30px;
+}
+
+.white-nav{
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+    color: #160A21;
+}
+
+.homeIcon{
+   size: 2em;
+   padding-left: 14px;
+}
+
+.white-nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;  
+}
+
+.white-nav li a{
+    color:#160A21 ;
+    float: left;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 0 20px;
+}
+
+/* content */
+.album{
+    background: url(images/EXPERIENCE.png);
+}
+
+.plus-btn {
+    background-color: #763aaa; /* Set the background color */
+    border: none; /* Remove border */
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    color: whitesmoke; /* Set text color to white */
+    font-size: 25px; /* Set font size */ 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer; /* Change cursor to pointer */
+  }
+  
+  .plus-btn:hover {
+    background-color: #2f0359; /* Darken background on hover */
+    font-size: 30px;
+    border-radius: whitesmoke;
+  }
+  
+.button{
+    text-align: center;
+    position: fixed;
+    bottom: 120px;
+    right: 20px;
+    z-index: 9999;
+}
+
+
+/* footer */
+.foots-panel{
+    background-color: #160A21;
+    padding: 10px 40px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foot-links{
+    display: inline-block;
+}
+
+.foot-links a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    display: block;
+}
+
+/* @media screen and (max-width: 480px){
+} */
