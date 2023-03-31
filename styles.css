@@ -79,6 +79,10 @@ li{
     background: url(images/EXPERIENCE.png);
 }
 
+.same_size{
+    height: 10%;
+}
+
 .plus-btn {
     background-color: #763aaa; /* Set the background color */
     border: none; /* Remove border */
